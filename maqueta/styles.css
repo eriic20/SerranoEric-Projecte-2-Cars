@@ -98,13 +98,9 @@ body {
     height: auto;
     margin-top: 20px;
   }
-  
 
-  .footer {
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 20px;
-  }
+
+  
   
   .newsletter {
     display: flex;
