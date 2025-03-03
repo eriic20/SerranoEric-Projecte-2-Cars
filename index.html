@@ -3,12 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maqueta</title>
+  <title>Proyecte - Cars</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://www.cdnfonts.com/sf-pro-display.font">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <nav class="nav">
+    <div class="nav__logo">
+        CARSPORT
+    </div>
+
+    
   <header class="header">
     <div class="container header-container">
       <h1 class="logo">CARSPORT</h1>
@@ -89,48 +96,61 @@
 
         <br><br><br><br><br>
 
-        <a class="circle">TOUS LES PRODUITS</a>
+        <div class="circuloparte1">
+          <div class="circle">
+              <p class="circulo3">tOUs LES produits</p>
+          </div>
+
         <div class="product-container">
-            <img src="imagenes/img11.png" alt="COCHE">
-            <h2>LA VITESSE N’A PLUS DE LIMITE</h2>
-            <p>Moteur 6 cylindres à plat atmosphérique de 525 chevaux.</p>
-
+            <img class="imagencoche" src="imagenes/img11.png" alt="COCHE">
+            <h2 class="lavitesse">LA VITESSE N’A PLUS DE LIMITE</h2>
+            <p class="cylindres">Moteur 6 cylindres à plat atmosphérique de 525 chevaux.</p>
             <hr>
-
-            <div class="newsletter">
-              <h2>RESTER INFORMER GRÂCE À LA NEWSLETTER</h2>
-              <input type="email" placeholder="Adresse mail">
-          </div>
-          <div class="footer">
-              <div>
-                  <ul>
-                      <li>Menu</li>
-                      <li>Accueil</li>
-                      <li>Voitures</li>
-                      <li>Catégories</li>
-                      <li>Contact</li>
-                  </ul>
+            <footer>
+              <div class="newsletter">
+                  <h2>RESTER INFORMER GRÂCE À LA NEWSLETTER</h2>
+                  <div class="email-input">
+                      <input type="email" placeholder="Adresse email">
+                      <button>&gt;</button>
+                  </div>
               </div>
-              <div>
-                  <ul>
-                      <li>Boutique</li>
-                      <li>Montre</li>
-                      <li>Hoodie</li>
-                      <li>E-bike</li>
-                      <li>Chaise de bureau</li>
-                  </ul>
+              <div class="menu-boutique">
+                  <div class="menu">
+                      <h3>Menu</h3>
+                      <ul>
+                          <li>Accueil</li>
+                          <li>Voitures</li>
+                          <li>Catégories</li>
+                          <li>Contact</li>
+                      </ul>
+                      <button>TOUTES LES VOITURES</button>
+                      <button>DÉCOUVRIR</button>
+                  </div>
+                  <div class="boutique">
+                      <h3>BOUTIQUE</h3>
+                      <ul>
+                          <li>Montre</li>
+                          <li>Hoodie</li>
+                          <li>E-bike</li>
+                          <li>Chaise de bureau</li>
+                      </ul>
+                  </div>
               </div>
-              <div>
-                  <button class="cta">TOUTES LES VOITURES</button>
-                  <button class="cta">DÉCOUVRIR</button>
+              <div class="payment-socials">
+                  <div class="payment-methods">
+                      <img src="logos/Googlepay.png" alt="G Pay">
+                      <img src="logos/Paypal.png" alt="PayPal">
+                      <img src="logos/Visa.png" alt="VISA">
+                      <img src="logos/Apple.png" alt="Apple Pay">
+                  </div>
+                  <div class="social-icons">
+                      <img src="logos/Facebook.png" alt="Facebook">
+                      <img src="logos/Instagram.png" alt="Instagram">
+                      <img src="logos/Twitter.png" alt="Twitter">
+                      <img src="logos/Linked.png" alt="LinkedIn">
+                  </div>
               </div>
-          </div>
-          <div class="footer-icons">
-              <span>G Pay</span>
-              <span>VISA</span>
-              <span>Apple Pay</span>
-
-      </div>
+          </footer>
     </div>
   </section>
 
